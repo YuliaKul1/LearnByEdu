@@ -5,6 +5,7 @@ import java.io.IOException;
 public class LearnByMain {
     public static void main(String[] args) throws IOException {
         //FirstOptTask.helloUser();
-        FirstOptTask.sumNumbers();
+        //FirstOptTask.sumNumbers();
+        SecondOptTask.lengthCounter();
     }
 }
