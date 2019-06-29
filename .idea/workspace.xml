@@ -4,9 +4,12 @@
     <list default="true" id="e52019a8-b4fc-4062-a941-a0089731a1a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/LearnByMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/LearnByMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnBy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/LearnByMain.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fundamentals/FirstOptTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fundamentals/FirstOptTask.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,10 +25,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/LearnByMain.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="114">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#672#681#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,12 +40,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#341#350#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1240">
+              <caret line="81" column="14" lean-forward="true" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Comparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -60,9 +81,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/fundamentals/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/fundamentals/LearnByMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java" />
       </list>
     </option>
@@ -84,10 +106,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="46" />
-    <option name="y" value="44" />
-    <option name="width" value="1099" />
-    <option name="height" value="689" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -96,79 +118,65 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="LearnBy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnBy" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnByEdu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LearnBy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnBy" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnByEdu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LearnBy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnBy" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnByEdu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LearnBy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnBy" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnByEdu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LearnBy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnBy" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnByEdu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fundamentals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LearnBy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
-              <item name="LearnBy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="LearnBy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LearnBy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LearnBy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="LearnBy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnBy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
@@ -179,13 +187,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561722497799" />
-    <property name="last_opened_file_path" value="$USER_HOME$/test-automation-course" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561826851946" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,7 +206,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SecondOptTask">
+    <configuration name="FirstOptTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.FirstOptTask" />
+      <module name="LearnBy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LearnByMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.LearnByMain" />
       <module name="LearnBy" />
@@ -213,8 +233,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondOptTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.SecondOptTask" />
+      <module name="LearnBy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondOptTask" />
+        <item itemvalue="Application.FirstOptTask" />
         <item itemvalue="Application.LearnByMain" />
       </list>
     </recent_temporary>
@@ -288,7 +323,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.21633889" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.2193646" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.21633889" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -297,15 +332,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.502439" side_tool="true" weight="0.21633889" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3535188" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.32242227" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" weight="0.3535188" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.32242227" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.049099836" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -357,6 +392,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="add FirstOptTask" />
     <MESSAGE value="update LearnByMain" />
     <MESSAGE value="add SecondOptTask" />
@@ -367,52 +405,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/io/IOException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/lang/NumberFormatException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/lang/Integer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/io/BufferedReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/io/IOException.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/lang/NumberFormatException.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/lang/Integer.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/io/BufferedReader.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/util/ArrayList.class" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/util/ArrayList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="190" selection-start-line="190" selection-end-line="190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#626#635#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -423,14 +424,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        <state relative-caret-position="114">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#341#350#0" expanded="true" />
+            <element signature="e#672#681#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="81" column="14" lean-forward="true" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
         </state>
       </provider>
     </entry>
