@@ -7,13 +7,14 @@ import java.util.ArrayList;
 
 public class FirstOptTask {
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         System.out.println("Hello " + helloUser());
         System.out.println("Сумма чисел " + sumNumbers());
     }
 
     static String helloUser() {
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             return reader.readLine();
         } catch (IOException e) {
             e.printStackTrace();
@@ -24,7 +25,8 @@ public class FirstOptTask {
     static int sumNumbers() {
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
         int number;
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             String inputString = reader.readLine();
             while (!"".equals(inputString)) {
                 try {
