@@ -93,4 +93,15 @@ public class SecondOptTask {
         }
 
     }
+
+    /*Найти количество чисел, содержащих только четные цифры
+
+    static void arrayEven(ArrayList<Integer> arrayList) {
+        int counter;
+        int temp;
+        for (Integer number : arrayList) {
+            int[] numArr = Integer.toString(number).chars().map(c -> c-'0').toArray();
+        }
+    }
+*/
 }

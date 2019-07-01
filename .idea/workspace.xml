@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e52019a8-b4fc-4062-a941-a0089731a1a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fundamentals/ThirdOptTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fundamentals/FirstOptTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fundamentals/FirstOptTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -35,8 +35,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+            <state relative-caret-position="1649">
+              <caret line="105" column="2" selection-start-line="105" selection-start-column="2" selection-end-line="105" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/ThirdOptTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +74,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/fundamentals/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/fundamentals/LearnByMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fundamentals/ThirdOptTask.java" />
       </list>
     </option>
   </component>
@@ -140,7 +155,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561981377454" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561990391385" />
     <property name="last_opened_file_path" value="$USER_HOME$/test-automation-course" />
   </component>
   <component name="RunDashboard">
@@ -155,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstOptTask">
+  <component name="RunManager" selected="Application.ThirdOptTask">
     <configuration name="FirstOptTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.FirstOptTask" />
       <module name="LearnBy" />
@@ -182,8 +197,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThirdOptTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fundamentals.ThirdOptTask" />
+      <module name="LearnBy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThirdOptTask" />
         <item itemvalue="Application.FirstOptTask" />
         <item itemvalue="Application.LearnByMain" />
       </list>
@@ -242,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561707874850</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update resources">
+      <created>1561981408226</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561981408226</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -266,14 +302,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.502439" side_tool="true" weight="0.21633889" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3535188" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3535188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.3535188" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" weight="0.3535188" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49848714" weight="0.32242227" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -330,7 +366,8 @@
     <MESSAGE value="add FirstOptTask" />
     <MESSAGE value="update LearnByMain" />
     <MESSAGE value="add SecondOptTask" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SecondOptTask" />
+    <MESSAGE value="update resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="update resources" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -382,13 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -396,6 +426,25 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#687#696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="105" column="2" selection-start-line="105" selection-start-column="2" selection-end-line="105" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/ThirdOptTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
           </folding>
         </state>
       </provider>
