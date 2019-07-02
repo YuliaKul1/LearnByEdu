@@ -76,6 +76,7 @@ public class SecondOptTask {
 
         Collections.sort(arrayList, Comparator.comparing(num -> String.valueOf(num).length()));
         /*
+        //первая версия решения
         for (int i = arraySorted.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
                 if (String.valueOf(arraySorted[j]).length() > String.valueOf(arraySorted[j + 1]).length()) {
@@ -94,8 +95,8 @@ public class SecondOptTask {
 
     }
 
-    /*Найти количество чисел, содержащих только четные цифры
-
+    //Найти количество чисел, содержащих только четные цифры
+    /*
     static void arrayEven(ArrayList<Integer> arrayList) {
         int counter;
         int temp;
@@ -103,5 +104,5 @@ public class SecondOptTask {
             int[] numArr = Integer.toString(number).chars().map(c -> c-'0').toArray();
         }
     }
-*/
+    */
 }
