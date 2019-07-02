@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e52019a8-b4fc-4062-a941-a0089731a1a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/ThirdOptTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/ThirdOptTask.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/ThirdOptTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
-              <caret line="24" column="83" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+              <caret line="24" column="86" lean-forward="true" selection-start-line="24" selection-start-column="86" selection-end-line="24" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,7 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562056188875" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562077779394" />
     <property name="last_opened_file_path" value="$USER_HOME$/test-automation-course" />
   </component>
   <component name="RunDashboard">
@@ -283,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561990417277</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update ThirdOptTask (Month)">
+      <created>1562056227787</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562056227787</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -307,7 +312,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.502439" side_tool="true" weight="0.21633889" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.36497545" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.27986908" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,7 +377,8 @@
     <MESSAGE value="add SecondOptTask" />
     <MESSAGE value="update resources" />
     <MESSAGE value="add ThirdOptTask" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ThirdOptTask" />
+    <MESSAGE value="update ThirdOptTask (Month)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ThirdOptTask (Month)" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -445,7 +451,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/ThirdOptTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
-          <caret line="24" column="83" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+          <caret line="24" column="86" lean-forward="true" selection-start-line="24" selection-start-column="86" selection-end-line="24" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
