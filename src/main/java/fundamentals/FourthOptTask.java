@@ -1,14 +1,10 @@
 package fundamentals;
 
-import sun.font.FontRunIterator;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Random;
+import java.util.*;
+import java.util.stream.IntStream;
 
 public class FourthOptTask {
     public static void main(String[] args) {
@@ -21,8 +17,10 @@ public class FourthOptTask {
             int[][] intsArr = intCreator(number, bound);
             System.out.println("Изначальная матрица");
             intPrinter(intsArr);
-            System.out.println("Отсортированная матрица");
-            intPrinter(arrSort(intsArr, 3));
+            //   System.out.println("Отсортированная матрица");
+            //     intPrinter(arrSort(intsArr, 3));
+            System.out.println("Матрица с удаленными максимальными элементами");
+            intPrinter(arrRemoveMax(intsArr));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -66,5 +64,29 @@ public class FourthOptTask {
         //решение Java8
         Arrays.sort(multiArr, Comparator.comparing(a -> a[k]));
         return multiArr;
+    }
+
+    //Найти максимальный элемент в матрице
+    //и удалить из матрицы все столбцы и строки, содержащие его
+    static int[][] arrRemoveMax(int[][] multiArr) {
+        int max = multiArr[0][0];
+        for (int[] arr : multiArr) {
+            for (int num : arr) {
+                if (num > max) {
+                    max = num;
+                }
+            }
+        }
+
+        ArrayList<int[]> multiList = new ArrayList<>();
+        int finalMax = max;
+        for (int[] arr : multiArr) {
+            if (IntStream.of(arr).noneMatch(x -> x == finalMax)) {
+                multiList.add(arr);
+            }
+        }
+
+        int[][] filterArray = multiList.toArray(new int[multiList.size()][]);
+        return filterArray;
     }
 }
