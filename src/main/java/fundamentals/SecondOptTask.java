@@ -15,7 +15,8 @@ public class SecondOptTask {
 
     public static void main(String[] args) throws IOException {
 
-        lengthSort(arrayFiller());
+//        lengthSort(arrayFiller());
+        System.out.println(arrayEven(arrayFiller()));
     }
 
     static ArrayList<Integer> arrayFiller() throws IOException {
@@ -96,13 +97,24 @@ public class SecondOptTask {
     }
 
     //Найти количество чисел, содержащих только четные цифры
-    /*
-    static void arrayEven(ArrayList<Integer> arrayList) {
-        int counter;
-        int temp;
+   //Среди оставшихся найти количество числе, в которых количество четных и нечетных одинаково
+    static int arrayEven(ArrayList<Integer> arrayList) {
+        int evenCnt = 0;
+        int temp = 0;
         for (Integer number : arrayList) {
-            int[] numArr = Integer.toString(number).chars().map(c -> c-'0').toArray();
+            String numString = number.toString();
+            char[] numChar = numString.toCharArray();
+            for (char c : numChar) {
+                if (c % 2 != 0) {
+                    temp++;
+                }
+            }
+            if (temp == 0) {
+                evenCnt++;
+            } else {
+                temp = 0;
+            }
         }
+        return evenCnt;
     }
-    */
 }
