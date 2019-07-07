@@ -15,8 +15,9 @@ public class SecondOptTask {
     public static void main(String[] args) throws IOException {
 
 //        lengthSort(arrayFiller());
-        Numbers numbers = cntEven(arrayFiller());
-        System.out.println(numbers.getEventOddEquals());
+        Numbers numbers = cntEvenOdd(arrayFiller());
+        System.out.println("Количество числе содержащих только четные цифры: \n" + numbers.getEvenCnt());
+        System.out.println("Количество числе содержащих одинаково четных и нечетных: \n" + numbers.getEvenOddEquals());
     }
 
     static ArrayList<Integer> arrayFiller() throws IOException {
@@ -99,19 +100,19 @@ public class SecondOptTask {
 
     public static class Numbers {
         private Integer evenCnt;
-        private Integer eventOddEquals;
+        private Integer evenOddEquals;
 
         public Integer getEvenCnt() {
             return evenCnt;
         }
 
-        public Integer getEventOddEquals() {
-            return eventOddEquals;
+        public Integer getEvenOddEquals() {
+            return evenOddEquals;
         }
 
-        public Numbers(int evenCnt, int eventOddEquals) {
+        public Numbers(int evenCnt, int evenOddEquals) {
             this.evenCnt = evenCnt;
-            this.eventOddEquals = eventOddEquals;
+            this.evenOddEquals = evenOddEquals;
         }
 
         public Numbers(int evenCnt) {
@@ -121,8 +122,11 @@ public class SecondOptTask {
 
     //Найти количество чисел, содержащих только четные цифры
     //Среди оставшихся найти количество числе, в которых количество четных и нечетных одинаково
-    static Numbers cntEven(ArrayList<Integer> arrayList) {
+    static Numbers cntEvenOdd(ArrayList<Integer> arrayList) {
         int evenCnt = 0;
+        int numEvenOddEquals = 0;
+        ArrayList<Integer> arrayNotEven = new ArrayList<>();
+
         for (Integer number : arrayList) {
             String numString = number.toString();
             char[] numChar = numString.toCharArray();
@@ -134,9 +138,21 @@ public class SecondOptTask {
             }
             if (temp == 0) {
                 evenCnt++;
+            } else {
+                int cntEvenForNumEvenOdd = 0;
+                int cntOddForNumEvenOdd = 0;
+                for (char numEvenOdd : numChar) {
+                    if (numEvenOdd % 2 != 0) {
+                        cntOddForNumEvenOdd++;
+                    } else {
+                        cntEvenForNumEvenOdd++;
+                    }
+                }
+                if (cntEvenForNumEvenOdd == cntOddForNumEvenOdd) {
+                    numEvenOddEquals++;
+                }
             }
         }
-        return new Numbers(evenCnt);
-
+        return new Numbers(evenCnt, numEvenOddEquals);
     }
 }
