@@ -6,7 +6,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 
@@ -16,7 +15,8 @@ public class SecondOptTask {
     public static void main(String[] args) throws IOException {
 
 //        lengthSort(arrayFiller());
-        System.out.println(arrayEven(arrayFiller()));
+        Numbers numbers = cntEven(arrayFiller());
+        System.out.println(numbers.getEventOddEquals());
     }
 
     static ArrayList<Integer> arrayFiller() throws IOException {
@@ -96,14 +96,37 @@ public class SecondOptTask {
 
     }
 
+
+    public static class Numbers {
+        private Integer evenCnt;
+        private Integer eventOddEquals;
+
+        public Integer getEvenCnt() {
+            return evenCnt;
+        }
+
+        public Integer getEventOddEquals() {
+            return eventOddEquals;
+        }
+
+        public Numbers(int evenCnt, int eventOddEquals) {
+            this.evenCnt = evenCnt;
+            this.eventOddEquals = eventOddEquals;
+        }
+
+        public Numbers(int evenCnt) {
+            this.evenCnt = evenCnt;
+        }
+    }
+
     //Найти количество чисел, содержащих только четные цифры
-   //Среди оставшихся найти количество числе, в которых количество четных и нечетных одинаково
-    static int arrayEven(ArrayList<Integer> arrayList) {
+    //Среди оставшихся найти количество числе, в которых количество четных и нечетных одинаково
+    static Numbers cntEven(ArrayList<Integer> arrayList) {
         int evenCnt = 0;
-        int temp = 0;
         for (Integer number : arrayList) {
             String numString = number.toString();
             char[] numChar = numString.toCharArray();
+            int temp = 0;
             for (char c : numChar) {
                 if (c % 2 != 0) {
                     temp++;
@@ -111,10 +134,9 @@ public class SecondOptTask {
             }
             if (temp == 0) {
                 evenCnt++;
-            } else {
-                temp = 0;
             }
         }
-        return evenCnt;
+        return new Numbers(evenCnt);
+
     }
 }
