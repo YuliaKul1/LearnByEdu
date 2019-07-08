@@ -130,27 +130,20 @@ public class SecondOptTask {
         for (Integer number : arrayList) {
             String numString = number.toString();
             char[] numChar = numString.toCharArray();
-            int temp = 0;
-            for (char c : numChar) {
-                if (c % 2 != 0) {
-                    temp++;
+            int cntEven = 0;
+            int cntOdd = 0;
+            for (char numEvenOdd : numChar) {
+                if (numEvenOdd % 2 == 0) {
+                    cntEven++;
+                } else {
+                    cntOdd++;
                 }
             }
-            if (temp == 0) {
+            if (cntEven == cntOdd) {
+                numEvenOddEquals++;
+            }
+            if (cntOdd == 0) {
                 evenCnt++;
-            } else {
-                int cntEvenForNumEvenOdd = 0;
-                int cntOddForNumEvenOdd = 0;
-                for (char numEvenOdd : numChar) {
-                    if (numEvenOdd % 2 != 0) {
-                        cntOddForNumEvenOdd++;
-                    } else {
-                        cntEvenForNumEvenOdd++;
-                    }
-                }
-                if (cntEvenForNumEvenOdd == cntOddForNumEvenOdd) {
-                    numEvenOddEquals++;
-                }
             }
         }
         return new Numbers(evenCnt, numEvenOddEquals);

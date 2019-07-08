@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e52019a8-b4fc-4062-a941-a0089731a1a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/FourthOptTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/FourthOptTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,8 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="LearnBy" />
@@ -25,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
+            <state relative-caret-position="799">
               <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,28 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="155" column="54" selection-start-line="155" selection-start-column="54" selection-end-line="155" selection-end-column="54" />
-              <folding>
-                <element signature="e#622#631#0" expanded="true" />
-                <element signature="e#3681#3682#0" expanded="true" />
-                <element signature="e#3719#3720#0" expanded="true" />
-                <element signature="e#3854#3855#0" expanded="true" />
-                <element signature="e#3899#3900#0" expanded="true" />
-                <element signature="e#4007#4008#0" expanded="true" />
-                <element signature="e#4053#4054#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/FourthOptTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="69" column="55" lean-forward="true" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+            <state relative-caret-position="327">
+              <caret line="93" column="99" selection-start-line="93" selection-start-column="99" selection-end-line="93" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,10 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="173">
+              <caret line="483" column="38" selection-start-line="483" selection-start-column="32" selection-end-line="483" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -95,8 +77,8 @@
         <option value="$PROJECT_DIR$/src/main/java/fundamentals/ThirdOptTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/fundamentals/Example.java" />
         <option value="$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fundamentals/FourthOptTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fundamentals/FourthOptTask.java" />
       </list>
     </option>
   </component>
@@ -116,10 +98,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-46" />
-    <option name="width" value="932" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
+    <option name="y" value="5" />
+    <option name="width" value="953" />
+    <option name="height" value="734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -128,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,11 +148,38 @@
               <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnByEdu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SecondOptTask">
+  <component name="RunManager" selected="Application.FourthOptTask">
     <configuration name="FirstOptTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.FirstOptTask" />
       <module name="LearnBy" />
@@ -206,7 +215,7 @@
     </configuration>
     <configuration name="FourthOptTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fundamentals.FourthOptTask" />
-      <module name="LearnBy" />
+      <module name="LearnByEdu" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fundamentals.*" />
@@ -258,8 +267,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SecondOptTask" />
         <item itemvalue="Application.FourthOptTask" />
+        <item itemvalue="Application.SecondOptTask" />
         <item itemvalue="Application.FirstOptTask" />
         <item itemvalue="Application.ThirdOptTask" />
         <item itemvalue="Application.LearnByMain" />
@@ -375,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562496259462</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="complete cntEvenOdd">
+      <created>1562502145135</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562502145135</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -388,10 +404,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-3" y="5" width="953" height="734" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.12934947" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.193729" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.21633889" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -400,14 +415,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.502439" side_tool="true" weight="0.21633889" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.049099836" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49429223" visible="true" weight="0.23460898" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49916804" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5030257" side_tool="true" visible="true" weight="0.049099836" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49848714" weight="0.32242227" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50570774" side_tool="true" weight="0.19601329" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4977169" weight="0.32225913" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.33878887" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -469,7 +484,20 @@
     <MESSAGE value="add FourthOptTask" />
     <MESSAGE value="add filterArray" />
     <MESSAGE value="update SecondOptTask" />
-    <option name="LAST_COMMIT_MESSAGE" value="update SecondOptTask" />
+    <MESSAGE value="complete cntEvenOdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete cntEvenOdd" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fundamentals/FourthOptTask.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -480,26 +508,9 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/lang/NumberFormatException.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/lang/Integer.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/io/BufferedReader.class" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/java/util/ArrayList.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/LearnByMain.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/Example.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/ThirdOptTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -510,36 +521,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/FourthOptTask.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="69" column="55" lean-forward="true" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+        <state relative-caret-position="7327">
+          <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/FirstOptTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/SecondOptTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="155" column="54" selection-start-line="155" selection-start-column="54" selection-end-line="155" selection-end-column="54" />
+        <state relative-caret-position="331">
+          <caret line="138" column="29" lean-forward="true" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
           <folding>
-            <element signature="e#622#631#0" expanded="true" />
-            <element signature="e#3681#3682#0" expanded="true" />
-            <element signature="e#3719#3720#0" expanded="true" />
-            <element signature="e#3854#3855#0" expanded="true" />
-            <element signature="e#3899#3900#0" expanded="true" />
-            <element signature="e#4007#4008#0" expanded="true" />
+            <element signature="e#4009#4010#0" expanded="true" />
             <element signature="e#4053#4054#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Comparator.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7327">
-          <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
+        <state relative-caret-position="173">
+          <caret line="483" column="38" selection-start-line="483" selection-start-column="32" selection-end-line="483" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fundamentals/FourthOptTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="93" column="99" selection-start-line="93" selection-start-column="99" selection-end-line="93" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

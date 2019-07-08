@@ -70,23 +70,31 @@ public class FourthOptTask {
     //и удалить из матрицы все столбцы и строки, содержащие его
     static int[][] arrRemoveMax(int[][] multiArr) {
         int max = multiArr[0][0];
-        for (int[] arr : multiArr) {
-            for (int num : arr) {
-                if (num > max) {
-                    max = num;
+        int row = 0;
+        int column = 0;
+
+        int rows = multiArr.length;
+        int columns = multiArr[0].length;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                if (max < multiArr[i][j]) {
+                    max = multiArr[i][j];
+                    row = i;
+                    column = j;
                 }
             }
         }
-
-        ArrayList<int[]> multiList = new ArrayList<>();
-        int finalMax = max;
-        for (int[] arr : multiArr) {
-            if (IntStream.of(arr).noneMatch(x -> x == finalMax)) {
-                multiList.add(arr);
+        int[][] finalArray = new int[rows - 1][columns - 1];
+        int destI = 0;
+        for (int i = 0; i < rows; i++) {
+            if (i == row) {
+                continue;
             }
+            System.arraycopy(multiArr[i], 0, finalArray[destI], 0, column);
+            System.arraycopy(multiArr[i], column + 1, finalArray[destI], column, columns - column-1);
+            destI++;
         }
 
-        int[][] filterArray = multiList.toArray(new int[multiList.size()][]);
-        return filterArray;
+        return finalArray;
     }
 }
